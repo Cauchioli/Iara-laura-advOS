@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Conversor Determinístico: Google Drive para Vault Segundo Cérebro (Método T.O.G.A)
+Conversor Determinístico: Google Drive para Vault Segundo Cérebro (Vértice OS)
 Princípio: Converta UMA vez. Consulte infinitas vezes.
 
 Varre a pasta operacional do Google Drive ("escritório oliveira viana") e gera
@@ -109,7 +109,7 @@ def run_conversion(drive_path):
                 safe_name = clean_filename(Path(file).stem) + ".md"
                 dest_file = target_dir / safe_name
                 
-                # Geracao do Frontmatter YAML (Padrao T.O.G.A)
+                # Geracao do Frontmatter YAML (Padrao Vertice OS)
                 tipo = "modelo" if is_modelo else "caso"
                 rel_path = str(full_path.relative_to(drive_path) if drive_path in full_path.parents else full_path)
                 

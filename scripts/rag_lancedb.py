@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-RAG Local em LanceDB: Vertice OS & Segundo Cerebro (Metodo T.O.G.A)
+RAG Local em LanceDB: Vertice OS & Segundo Cerebro
 Cliente: Iara e Laura Advocacia
 
 Motor de busca vetorial leve e embarcado:

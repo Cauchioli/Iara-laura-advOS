@@ -14,7 +14,7 @@ Este arquivo define as regras obrigatórias de comportamento, execução, contex
 
 ---
 
-## 2. Metodologia do Segundo Cérebro (Padrão T.O.G.A)
+## 2. Metodologia do Segundo Cérebro (Vértice OS)
 1. Estrutura Decimal do Vault:
    - `00-ENTRADA.md`: mapa de navegação e visão geral do escritório.
    - `01-REGRAS.md`: governança inegociável (sem "menor", sem "o mesmo", validação de vigência e citação de folhas).

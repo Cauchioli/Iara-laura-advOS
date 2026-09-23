@@ -1,6 +1,6 @@
 # Segundo Cérebro Jurídico & Operacional: Iara & Laura Advocacia
 
-Bem-vindo ao Segundo Cérebro do escritório Iara & Laura Advocacia, estruturado sob a metodologia Vértice OS / T.O.G.A.
+Bem-vindo ao Segundo Cérebro do escritório Iara & Laura Advocacia, estruturado sob a metodologia Vértice OS.
 Este repositório centraliza a inteligência do escritório em texto leve (Markdown), permitindo que agentes de inteligência artificial (Claude, Antigravity, NotebookLM) consultem o acervo e a operação sem queimar tokens com arquivos brutos pesados.
 
 ---

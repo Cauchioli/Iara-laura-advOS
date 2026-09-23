@@ -1,8 +1,8 @@
 # Vértice OS: Segundo Cérebro Jurídico & Comercial
-# Escritório: Iara & Laura Advocacia (Método T.O.G.A)
+# Escritório: Iara & Laura Advocacia
 
 Este repositório é o Segundo Cérebro unificado do escritório Iara & Laura Advocacia.
-Ele opera sob a metodologia T.O.G.A (Vault Markdown estruturado em padrão Johnny Decimal) para consulta de baixo custo de tokens por agentes de inteligência artificial.
+Ele opera sob a arquitetura Vértice OS (Vault Markdown estruturado em padrão Johnny Decimal) para consulta de baixo custo de tokens por agentes de inteligência artificial.
 
 ---
 

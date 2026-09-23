@@ -1,8 +1,8 @@
 # Vértice OS: Setup Automatizado para Windows PowerShell
-# Cliente: Iara & Laura Advocacia (Segundo Cérebro T.O.G.A)
+# Cliente: Iara & Laura Advocacia (Segundo Cérebro)
 
 Write-Host "========================================================" -ForegroundColor Cyan
-Write-Host "  VÉRTICE OS: SEGUNDO CÉREBRO (MÉTODO T.O.G.A)" -ForegroundColor Cyan
+Write-Host "  VÉRTICE OS: SEGUNDO CÉREBRO" -ForegroundColor Cyan
 Write-Host "  Cliente: Iara & Laura Advocacia" -ForegroundColor Cyan
 Write-Host "========================================================" -ForegroundColor Cyan
 Write-Host ""

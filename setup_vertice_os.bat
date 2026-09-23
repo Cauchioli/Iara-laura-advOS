@@ -3,7 +3,7 @@ chcp 65001 > nul
 title Instalador Vertice OS - Segundo Cerebro Iara e Laura Advocacia
 
 echo ========================================================
-echo   VERTICE OS: SEGUNDO CEREBRO (METODO T.O.G.A)
+echo   VERTICE OS: SEGUNDO CEREBRO
 echo   Cliente: Iara e Laura Advocacia
 echo ========================================================
 echo.
@@ -30,7 +30,7 @@ echo.
 echo [3/3] Arquivos de Governanca Configurados:
 echo - 00-ENTRADA.md (Porta de entrada do Segundo Cerebro)
 echo - 01-REGRAS.md (Leis inegociaveis do escritorio)
-echo - 02-PROTOCOLO-ORGANIZADOR.md (Metodo T.O.G.A para o Drive)
+echo - 02-PROTOCOLO-ORGANIZADOR.md (Protocolo organizador com lacre para o Drive)
 echo - CLAUDE.md (Instrucoes nativas para Claude Code e Claude Projects)
 echo - AGENTS.md / GEMINI.md (Instrucoes para Antigravity)
 echo - 4 Skills em 40-operacional\prompts\ prontas para uso.

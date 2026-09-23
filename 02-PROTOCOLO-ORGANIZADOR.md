@@ -1,4 +1,4 @@
-# Protocolo Organizador de Acervo: Método T.O.G.A / Vértice OS
+# Protocolo Organizador de Acervo: Vértice OS
 ## Aplicação: Google Drive (Pasta "Escritório Oliveira Viana")
 
 Este protocolo estabelece o procedimento padronizado para inventariar, classificar e organizar o acervo digital do escritório Iara & Laura Advocacia sem que um único arquivo seja perdido ou corrompido.

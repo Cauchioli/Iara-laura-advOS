@@ -1,8 +1,8 @@
 # Vértice OS: Segundo Cérebro Jurídico & Comercial
-## Cliente: Iara & Laura Advocacia (Método T.O.G.A)
+## Cliente: Iara & Laura Advocacia
 
 Repositório unificado da infraestrutura de inteligência operacional e Segundo Cérebro do escritório Iara & Laura Advocacia.
-Estruturado sob a metodologia T.O.G.A (Vault Markdown em padrão Johnny Decimal / PARA), este sistema transforma o acervo do escritório em uma base de conhecimento leve, pesquisável e de altíssima eficiência de tokens para agentes de IA (Claude, Antigravity, NotebookLM).
+Estruturado sob a metodologia Vértice OS (Vault Markdown em padrão Johnny Decimal / PARA), este sistema transforma o acervo do escritório em uma base de conhecimento leve, pesquisável e de altíssima eficiência de tokens para agentes de IA (Claude, Antigravity, NotebookLM).
 
 ---
 
@@ -20,7 +20,7 @@ Estruturado sob a metodologia T.O.G.A (Vault Markdown em padrão Johnny Decimal 
 Iara-laura-advOS/
 ├── 00-ENTRADA.md                    # Visão panorâmica e porta de entrada do escritório
 ├── 01-REGRAS.md                     # Governança inegociável, estilo e blindagem de segurança
-├── 02-PROTOCOLO-ORGANIZADOR.md      # Protocolo T.O.G.A para organização do Drive com lacre
+├── 02-PROTOCOLO-ORGANIZADOR.md      # Protocolo para organização do Drive com lacre
 ├── 03-SCHEMA.md                     # Especificação dos campos e metadados YAML das notas
 ├── 10-clientes/                     # Fichas e resumos de casos dos clientes ativos
 ├── 20-modelos/                      # Peças padrão ouro da Dra. Laura convertidas em .md
@@ -63,7 +63,7 @@ git clone https://github.com/Cauchioli/Iara-laura-advOS.git
 cd Iara-laura-advOS
 ```
 
-### Passo 2: Executar o Conversor T.O.G.A para o Google Drive
+### Passo 2: Executar o Conversor para o Google Drive
 Para converter as peças e modelos da pasta operacional do Google Drive em notas Markdown leves:
 ```bash
 python scripts/converter_drive_para_vault.py "G:\Meu Drive\escritorio oliveira viana"
