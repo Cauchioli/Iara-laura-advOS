@@ -27,6 +27,8 @@ $RECYCLE.BIN/
 *.log
 *.tmp
 *.bak
+lancedb/
+manifest*.json
 
 # Arquivos Sensíveis e Chaves
 *.key
