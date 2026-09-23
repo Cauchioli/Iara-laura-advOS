@@ -56,9 +56,9 @@ tipo: transcricao
 assunto: "Reunião de Alinhamento e Governança Comercial"
 data: "AAAA-MM-DD"
 participantes:
-  - "Leo Cauchioli"
   - "Dra. Iara Viana"
   - "Dra. Laura Oliveira"
+  - "Equipe Jurídica"
 frente: comercial # comercial | juridico | gestao
 duracao_aproximada: "01:20:00"
 status: processado # bruto | processado
