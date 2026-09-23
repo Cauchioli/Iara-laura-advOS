@@ -1,8 +1,8 @@
 # Vértice OS: Setup Automatizado para Windows PowerShell
-# Cliente: Iara & Laura Advocacia
+# Cliente: Iara & Laura Advocacia (Segundo Cérebro T.O.G.A)
 
 Write-Host "========================================================" -ForegroundColor Cyan
-Write-Host "  VÉRTICE OS: INSTALAÇÃO E SETUP OPERACIONAL" -ForegroundColor Cyan
+Write-Host "  VÉRTICE OS: SEGUNDO CÉREBRO (MÉTODO T.O.G.A)" -ForegroundColor Cyan
 Write-Host "  Cliente: Iara & Laura Advocacia" -ForegroundColor Cyan
 Write-Host "========================================================" -ForegroundColor Cyan
 Write-Host ""
@@ -17,17 +17,21 @@ if ($pythonCheck) {
     Write-Host "[AVISO] Python não identificado no PATH. As skills web (Claude e Antigravity) funcionarão normalmente." -ForegroundColor DarkYellow
 }
 
-# 2. Validação da Estrutura
+# 2. Validação da Estrutura Decimal
 Write-Host ""
-Write-Host "[2/3] Validando estrutura de pastas e skills..." -ForegroundColor Yellow
+Write-Host "[2/3] Validando estrutura decimal do Vault..." -ForegroundColor Yellow
 $requiredPaths = @(
-    "vertice-os/prompts/skill_elaboracao_estagiarias.md",
-    "vertice-os/prompts/skill_revisao_estagiaria_king.md",
-    "vertice-os/prompts/skill_revisao_laura.md",
-    "vertice-os/prompts/skill_atendimento_comercial_nanda.md",
-    "AGENTS.md",
+    "00-ENTRADA.md",
+    "01-REGRAS.md",
+    "02-PROTOCOLO-ORGANIZADOR.md",
+    "03-SCHEMA.md",
+    "40-operacional/crm_comercial_astrea.md",
+    "40-operacional/prompts/01_skill_elaboracao_estagiarias.md",
+    "40-operacional/prompts/02_skill_revisao_coordenacao_keren.md",
+    "40-operacional/prompts/03_skill_supervisao_laura_iara.md",
+    "40-operacional/prompts/04_skill_comercial_crm_ana_nanda.md",
     "CLAUDE.md",
-    "GEMINI.md"
+    "AGENTS.md"
 )
 
 $missing = 0
@@ -41,12 +45,12 @@ foreach ($p in $requiredPaths) {
 }
 
 if ($missing -eq 0) {
-    Write-Host "[OK] Todas as 4 skills e governança validadas com sucesso." -ForegroundColor Green
+    Write-Host "[OK] Todas as notas de governança e skills validadas com sucesso." -ForegroundColor Green
 } else {
     Write-Host "[ERRO] Há arquivos essenciais ausentes." -ForegroundColor Red
 }
 
 Write-Host ""
 Write-Host "========================================================" -ForegroundColor Cyan
-Write-Host "  SISTEMA OPERACIONAL VÉRTICE PRONTO PARA USO!" -ForegroundColor Green
+Write-Host "  SEGUNDO CÉREBRO CONFIGURADO COM SUCESSO!" -ForegroundColor Green
 Write-Host "========================================================" -ForegroundColor Cyan

@@ -1,88 +1,76 @@
-# Vértice OS: Infraestrutura Operacional & Inteligência Jurídica
-## Cliente: Iara & Laura Advocacia
+# Vértice OS: Segundo Cérebro Jurídico & Comercial
+## Cliente: Iara & Laura Advocacia (Método T.O.G.A)
 
-Repositório unificado da infraestrutura de inteligência operacional do escritório Iara & Laura Advocacia, estruturado pela Vértice OS.
-Este sistema unifica as diretrizes de produção de peças processuais, o saneamento formal da controladoria técnica e a esteira de atendimento comercial.
-
----
-
-## 1. Visão Geral da Arquitetura
-
-O sistema opera sob duas esteiras principais integradas:
-
-### A. Esteira Jurídica em 3 Níveis
-1. Nível 01 (Elaboração Base): Maria Carolina e Stephany produzem a primeira minuta orientada ao objetivo macro da demanda.
-2. Nível 02 (Saneamento e Conformidade): Keren realiza o raio-X formal, documental e processual em até 5 minutos.
-3. Nível 03 (Supervisão Estratégica): Dra. Laura Oliveira e Dra. Iara Viana auditam mérito, tese substantiva e deferimento em até 3 minutos.
-
-### B. Esteira Comercial & CRM
-1. Triagem & Pré-lead: Ana (SDR) qualifica contatos, aplica a regra de descarte no WhatsApp e cadastra no Astrea.
-2. Cadência de Agendamento: Acompanhamento em D+1, D+3 e D+7, consulta fixada a R$ 400,00 e quebra de objeções.
-3. Passagem de Bastão: Contrato assinado gera automaticamente a tarefa "Gestão de Contrato Fechado" para a Nanda.
+Repositório unificado da infraestrutura de inteligência operacional e Segundo Cérebro do escritório Iara & Laura Advocacia.
+Estruturado sob a metodologia T.O.G.A (Vault Markdown em padrão Johnny Decimal / PARA), este sistema transforma o acervo do escritório em uma base de conhecimento leve, pesquisável e de altíssima eficiência de tokens para agentes de IA (Claude, Antigravity, NotebookLM).
 
 ---
 
-## 2. Estrutura do Repositório
+## 1. Princípio Fundamental: Converta UMA Vez, Consulte Infinitas Vezes
+
+* **O Google Drive guarda a prova documental:** Arquivos brutos (PDFs de 80 páginas, DOCXs, áudios) permanecem onde estão, intocáveis em suas pastas de origem.
+* **O Segundo Cérebro guarda a memória ativa:** A esteira de conversão processa cada arquivo relevante uma única vez, gerando uma nota Markdown leve (15 KB) com cabeçalho YAML padronizado.
+* **Economia Real:** As consultas da inteligência artificial passam a consumir 2.000 a 4.000 tokens por análise (em vez de queimar 50.000 a 100.000 tokens relendo arquivos brutos a cada conversa), com 90% a 95% de economia permanente.
+
+---
+
+## 2. Mapa Decimal do Vault (Johnny Decimal)
 
 ```text
-├── 1-contexto/                 # Perfil institucional, histórico e mapeamento da equipe
-├── 2-deliverables/             # Relatórios executivos, propostas e cronogramas
-├── 3-reunioes/                 # Atas executivas e alinhamentos operacionais
-├── vertice-os/                 # Núcleo técnico do sistema operacional
-│   ├── _memoria/               # Memória contextual persistente
-│   ├── prompts/                # As 4 Skills em Markdown
-│   │   ├── skill_elaboracao_estagiarias.md
-│   │   ├── skill_revisao_estagiaria_king.md
-│   │   ├── skill_revisao_laura.md
-│   │   └── skill_atendimento_comercial_nanda.md
-│   ├── dna_redacao_escritorio.md
-│   ├── regras_escritorio.md
-│   └── scanner_onboarding_drive.py
-├── AGENTS.md                   # Governança operacional universal para agentes de IA
-├── CLAUDE.md                   # Instruções nativas para Claude Code e Claude Projects
-├── GEMINI.md                   # Instruções nativas para Antigravity e ecossistema Gemini
-├── setup_vertice_os.bat        # Instalador rápido para Windows
-└── setup_vertice_os.ps1        # Script de inicialização em PowerShell
+Iara-laura-advOS/
+├── 00-ENTRADA.md                    # Visão panorâmica e porta de entrada do escritório
+├── 01-REGRAS.md                     # Governança inegociável, estilo e blindagem de segurança
+├── 02-PROTOCOLO-ORGANIZADOR.md      # Protocolo T.O.G.A para organização do Drive com lacre
+├── 03-SCHEMA.md                     # Especificação dos campos e metadados YAML das notas
+├── 10-clientes/                     # Fichas e resumos de casos dos clientes ativos
+├── 20-modelos/                      # Peças padrão ouro da Dra. Laura convertidas em .md
+├── 30-teses/                        # Banco de teses e jurisprudências validadas
+├── 40-operacional/                  # Manuais de rotina, CRM do Astrea e scripts
+│   ├── crm_comercial_astrea.md      # As 7 fases do Kanban e cadência D+1, D+3, D+7
+│   └── prompts/                     # As 4 Skills Operacionais parametrizadas
+│       ├── 01_skill_elaboracao_estagiarias.md
+│       ├── 02_skill_revisao_coordenacao_keren.md
+│       ├── 03_skill_supervisao_laura_iara.md
+│       └── 04_skill_comercial_crm_ana_nanda.md
+├── 90-transcricoes/                 # Memória das reuniões e instruções gravadas
+├── AGENTS.md                        # Governança universal para Antigravity e Gemini
+├── CLAUDE.md                        # Instruções nativas para Claude Code e Claude Projects
+├── GEMINI.md                        # Diretrizes do ecossistema Gemini
+└── scripts/
+    ├── converter_drive_para_vault.py  # Conversor determinístico Drive -> Vault
+    ├── rag_escritorio.py              # Indexador semântico local com blindagem
+    ├── setup_vertice_os.bat           # Instalador Windows com 1 clique
+    └── setup_vertice_os.ps1           # Script de setup em PowerShell
 ```
 
 ---
 
-## 3. Guia de Instalação e Ativação
+## 3. As 4 Skills do Ecossistema em `40-operacional/prompts/`
 
-O projeto foi construído para instalação transparente em qualquer estação de trabalho (notebook da Dra. Iara, notebook da Dra. Laura ou computadores da equipe).
+1. `01_skill_elaboracao_estagiarias.md`: Nível 1 (Elaboração pelas estagiárias de base com foco no objetivo macro da demanda).
+2. `02_skill_revisao_coordenacao_keren.md`: Nível 2 (Saneamento formal e probatório pela Keren em até 5 minutos).
+3. `03_skill_supervisao_laura_iara.md`: Nível 3 (Supervisão técnica sênior de tese e deferimento pela Dra. Laura ou Dra. Iara em até 3 minutos).
+4. `04_skill_comercial_crm_ana_nanda.md`: Esteira Comercial (Kanban de 7 fases no Astrea, filtro de Pré-lead e quebra de objeções para Ana e Nanda).
 
-### Opção 1: Instalação via Antigravity / Gemini CLI
-1. Clone o repositório na pasta local de trabalho:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/iara-laura-advocacia.git
-   ```
-2. Abra a pasta no terminal ou no Antigravity:
-   ```bash
-   cd iara-laura-advocacia
-   ```
-3. O Antigravity carregará automaticamente o arquivo `AGENTS.md` e as skills disponíveis no diretório.
+---
 
-### Opção 2: Instalação via Claude Code ou Claude Desktop / Projects
-1. Clone o repositório na máquina:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/iara-laura-advocacia.git
-   ```
-2. O Claude Code reconhecerá automaticamente o arquivo `CLAUDE.md` na raiz do projeto.
-3. Para uso no Claude Web (Claude Projects):
-   - Crie um novo projeto no Claude chamado "Iara & Laura Advocacia".
-   - No campo "System Prompt / Instructions", cole o conteúdo de `CLAUDE.md` ou da skill específica do posto de trabalho.
-   - Na aba "Project Knowledge", adicione os arquivos `dna_redacao_escritorio.md`, `regras_escritorio.md` e os arquivos de prompt correspondentes.
+## 4. Guia Rápido de Instalação e Conversão do Drive
 
-### Opção 3: Execução do Scanner de Acervo do Google Drive
-Para mapear o acervo histórico sem custo de tokens:
+### Passo 1: Clonar o Repositório
+No computador da Dra. Iara ou da equipe:
 ```bash
-python vertice-os/scanner_onboarding_drive.py "G:\Meu Drive\02_Operacional_Processos" "vertice-os"
+git clone https://github.com/Cauchioli/Iara-laura-advOS.git
+cd Iara-laura-advOS
 ```
 
----
+### Passo 2: Executar o Conversor T.O.G.A para o Google Drive
+Para converter as peças e modelos da pasta operacional do Google Drive em notas Markdown leves:
+```bash
+python scripts/converter_drive_para_vault.py "G:\Meu Drive\escritorio oliveira viana"
+```
+*(As pastas de diretoria e financeiro serão terminantemente ignoradas pela regra de blindagem).*
 
-## 4. Diretrizes Invioláveis de Segurança e Estilo
-* Sigilo Absoluto: Pastas financeiras e societárias permanecem estritamente isoladas e inacessíveis para agentes e colaboradores.
-* Proibição de Vocabulário Específico: Vedado o uso do termo "menor" (utilizar criança, adolescente, filho ou filha) e da expressão "o mesmo".
-* Sem Travessões como Separadores: Utilizar vírgulas, dois-pontos ou parênteses.
-* Validação Humana Mandatória: Todas as petições passam por conferência da Keren e validação final da Dra. Laura ou Dra. Iara antes do protocolo judicial.
+### Passo 3: Ativação no Claude ou Antigravity
+* No Claude Code: execute `claude` na raiz do projeto. O `CLAUDE.md` carregará automaticamente todo o ecossistema.
+* No Claude Projects: adicione `CLAUDE.md` nas instruções e anexe as notas convertidas e as skills em Project Knowledge.
+* No Antigravity: abra a pasta do repositório. O `AGENTS.md` guiará todas as operações.
