@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches e Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Antigravity e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos Temporários de Sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Backups e Logs
+*.log
+*.tmp
+*.bak
+
+# Arquivos Sensíveis e Chaves
+*.key
+*.pem
+credentials.json
+token.json
